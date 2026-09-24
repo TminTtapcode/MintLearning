@@ -1,0 +1,31 @@
+id: unit-http-request-response
+slug: http-request-response
+title: HTTP Request and Response
+primaryConceptId: web.http
+prerequisites:
+  - web.client-server
+  - web.request-response
+estimatedMinutes: 60
+whyItMatters: "Spring controllers only make sense when the learner understands how a client sends an HTTP request and receives a response."
+objectives:
+  - "Explain the request-response flow without notes."
+  - "Identify method, URL, headers and body in a basic HTTP example."
+  - "Interpret common 2xx, 4xx and 5xx status families at introductory level."
+resources:
+  - res-mdn-http-overview
+workedExample:
+  prompt: "A browser sends GET /users/10. Trace the request to a backend and the response back to the browser."
+  steps:
+    - "The client creates an HTTP request with method GET and path /users/10."
+    - "The backend receives the request and finds the matching route/controller."
+    - "The backend runs application logic and may read data."
+    - "The backend returns an HTTP response such as status 200 with JSON."
+guidedPractice:
+  - "Identify method, path, one header and body in a labeled request sample."
+independentPractice:
+  - "Open browser DevTools Network and record URL, method, status and one response header for a real request."
+assessmentId: assess-http-basics
+reviewIntent:
+  conceptIds: [web.http, web.http-methods-status]
+  schedule: RULE_BASED
+status: DRAFT

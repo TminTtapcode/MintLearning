@@ -1,0 +1,16 @@
+id: backend-java-foundation
+title: Backend Java Foundation
+level: beginner
+status: DRAFT
+version: 1
+modules:
+  - web-foundation
+  - programming-java
+  - oop-java
+  - git-tooling
+  - database-sql
+  - http-rest
+  - spring-web
+  - persistence-security-testing
+  - docker-project
+completionGoal: "Build and explain a small Spring Boot REST API backed by MySQL with basic validation, persistence, authentication concepts, tests, and Docker fundamentals."

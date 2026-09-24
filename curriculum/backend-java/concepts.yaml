@@ -1,0 +1,211 @@
+concepts:
+  - id: web.client-server
+    title: Client–Server Model
+    module: web-foundation
+    type: FOUNDATION
+    prerequisites: []
+    estimatedMinutes: 30
+  - id: web.request-response
+    title: Request and Response Mental Model
+    module: web-foundation
+    type: FOUNDATION
+    prerequisites: [web.client-server]
+    estimatedMinutes: 30
+  - id: programming.variables-types
+    title: Variables and Basic Types
+    module: programming-java
+    type: LANGUAGE
+    prerequisites: []
+    estimatedMinutes: 45
+  - id: programming.control-flow
+    title: Conditions and Loops
+    module: programming-java
+    type: LANGUAGE
+    prerequisites: [programming.variables-types]
+    estimatedMinutes: 60
+  - id: programming.functions
+    title: Functions and Parameters
+    module: programming-java
+    type: LANGUAGE
+    prerequisites: [programming.variables-types, programming.control-flow]
+    estimatedMinutes: 60
+  - id: java.classes-objects
+    title: Classes and Objects
+    module: oop-java
+    type: LANGUAGE
+    prerequisites: [programming.functions]
+    estimatedMinutes: 60
+  - id: java.encapsulation
+    title: Encapsulation
+    module: oop-java
+    type: LANGUAGE
+    prerequisites: [java.classes-objects]
+    estimatedMinutes: 45
+  - id: java.inheritance-polymorphism
+    title: Inheritance and Polymorphism
+    module: oop-java
+    type: LANGUAGE
+    prerequisites: [java.classes-objects]
+    estimatedMinutes: 60
+  - id: java.collections
+    title: Collections
+    module: oop-java
+    type: LANGUAGE
+    prerequisites: [programming.control-flow, java.classes-objects]
+    estimatedMinutes: 75
+  - id: java.exceptions
+    title: Exceptions and Error Handling
+    module: oop-java
+    type: LANGUAGE
+    prerequisites: [java.classes-objects]
+    estimatedMinutes: 60
+  - id: git.basics
+    title: Git Basics
+    module: git-tooling
+    type: TOOLING
+    prerequisites: []
+    estimatedMinutes: 60
+  - id: build.maven
+    title: Maven Basics
+    module: git-tooling
+    type: TOOLING
+    prerequisites: [programming.functions]
+    estimatedMinutes: 45
+  - id: db.relational-model
+    title: Relational Database Basics
+    module: database-sql
+    type: DATA
+    prerequisites: []
+    estimatedMinutes: 45
+  - id: db.sql-crud
+    title: SQL SELECT/INSERT/UPDATE/DELETE
+    module: database-sql
+    type: DATA
+    prerequisites: [db.relational-model]
+    estimatedMinutes: 75
+  - id: db.keys-constraints
+    title: Primary Key, Foreign Key and Constraints
+    module: database-sql
+    type: DATA
+    prerequisites: [db.relational-model]
+    estimatedMinutes: 60
+  - id: db.sql-joins
+    title: SQL JOINs
+    module: database-sql
+    type: DATA
+    prerequisites: [db.sql-crud, db.keys-constraints]
+    estimatedMinutes: 75
+  - id: db.index-basics
+    title: Index Basics
+    module: database-sql
+    type: DATA
+    prerequisites: [db.sql-crud, db.keys-constraints]
+    estimatedMinutes: 40
+  - id: web.http
+    title: HTTP Fundamentals
+    module: http-rest
+    type: FOUNDATION
+    prerequisites: [web.request-response]
+    estimatedMinutes: 75
+  - id: web.http-methods-status
+    title: HTTP Methods and Status Codes
+    module: http-rest
+    type: FOUNDATION
+    prerequisites: [web.http]
+    estimatedMinutes: 60
+  - id: web.json
+    title: JSON Data Format
+    module: http-rest
+    type: FOUNDATION
+    prerequisites: [programming.variables-types]
+    estimatedMinutes: 30
+  - id: web.rest
+    title: REST Resource and Endpoint Design
+    module: http-rest
+    type: FOUNDATION
+    prerequisites: [web.http-methods-status, web.json]
+    estimatedMinutes: 75
+  - id: spring.boot-basics
+    title: Spring Boot Project Basics
+    module: spring-web
+    type: FRAMEWORK
+    prerequisites: [build.maven, java.classes-objects]
+    estimatedMinutes: 60
+  - id: spring.controller
+    title: REST Controller
+    module: spring-web
+    type: FRAMEWORK
+    prerequisites: [spring.boot-basics, web.rest]
+    estimatedMinutes: 75
+  - id: spring.dto-validation
+    title: DTO and Input Validation
+    module: spring-web
+    type: FRAMEWORK
+    prerequisites: [spring.controller, java.encapsulation]
+    estimatedMinutes: 60
+  - id: spring.service-layer
+    title: Service Layer and Business Logic
+    module: spring-web
+    type: FRAMEWORK
+    prerequisites: [spring.controller, java.encapsulation]
+    estimatedMinutes: 60
+  - id: spring.error-handling
+    title: API Error Handling
+    module: spring-web
+    type: FRAMEWORK
+    prerequisites: [spring.controller, java.exceptions]
+    estimatedMinutes: 60
+  - id: jpa.entity-repository
+    title: JPA Entity and Repository
+    module: persistence-security-testing
+    type: DATA
+    prerequisites: [spring.service-layer, db.keys-constraints]
+    estimatedMinutes: 90
+  - id: jpa.relationships
+    title: Basic JPA Relationships
+    module: persistence-security-testing
+    type: DATA
+    prerequisites: [jpa.entity-repository, db.sql-joins]
+    estimatedMinutes: 75
+  - id: security.auth-concepts
+    title: Authentication vs Authorization
+    module: persistence-security-testing
+    type: SECURITY
+    prerequisites: [web.http, spring.controller]
+    estimatedMinutes: 45
+  - id: security.token-auth
+    title: Token Authentication Basics
+    module: persistence-security-testing
+    type: SECURITY
+    prerequisites: [security.auth-concepts, spring.service-layer]
+    estimatedMinutes: 75
+  - id: testing.unit-basics
+    title: Unit Testing Basics
+    module: persistence-security-testing
+    type: QUALITY
+    prerequisites: [java.classes-objects, spring.service-layer]
+    estimatedMinutes: 60
+  - id: testing.api-integration
+    title: API Integration Testing Basics
+    module: persistence-security-testing
+    type: QUALITY
+    prerequisites: [spring.controller, jpa.entity-repository]
+    estimatedMinutes: 75
+  - id: docker.container-basics
+    title: Container and Docker Basics
+    module: docker-project
+    type: TOOLING
+    prerequisites: [spring.boot-basics]
+    estimatedMinutes: 60
+  - id: docker.compose-basics
+    title: Docker Compose for App + MySQL
+    module: docker-project
+    type: TOOLING
+    prerequisites: [docker.container-basics, jpa.entity-repository]
+    estimatedMinutes: 60
+  - id: project.backend-api
+    title: Backend Java Mini Project
+    module: docker-project
+    type: PROJECT
+    prerequisites: [spring.dto-validation, spring.error-handling, jpa.entity-repository, security.auth-concepts, testing.api-integration]
+    estimatedMinutes: 360

@@ -1,0 +1,32 @@
+id: assess-http-basics
+title: HTTP Basics Check
+type: UNIT_CHECK
+questions:
+  - id: http-q1
+    conceptIds: [web.http]
+    type: SHORT_RECALL
+    prompt: "Without notes, describe what an HTTP request is and what an HTTP response is."
+    rubric:
+      full: "Explains client request to server and server response back, with data/status distinction."
+      partial: "Understands two-way request/response but misses important distinction."
+  - id: http-q2
+    conceptIds: [web.http-methods-status]
+    type: MULTIPLE_CHOICE
+    prompt: "Which status code most commonly means a requested resource was not found?"
+    options: ["200", "201", "404", "500"]
+    answer: "404"
+    explanation: "404 indicates that the server could not find the requested resource in the normal HTTP semantics."
+  - id: http-q3
+    conceptIds: [web.http]
+    type: SCENARIO
+    prompt: "In 'GET /users/10', identify the method and path."
+    answer:
+      method: GET
+      path: /users/10
+  - id: http-q4
+    conceptIds: [web.http]
+    type: SCENARIO
+    prompt: "Name two pieces of information you can inspect in browser DevTools Network to understand an HTTP exchange."
+    rubric:
+      acceptable: ["Request URL", "Request Method", "Status Code", "Request Headers", "Response Headers", "Response body"]
+status: DRAFT

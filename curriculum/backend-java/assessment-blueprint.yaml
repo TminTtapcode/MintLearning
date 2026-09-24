@@ -1,0 +1,17 @@
+blueprint:
+  diagnostic:
+    maxQuestions: 18
+    targetMinutes: 15
+    allowSkip: true
+    questionMix:
+      recognition: 0.25
+      explanation: 0.35
+      scenarioOrCodeReading: 0.40
+  unitCheck:
+    targetItems: 4
+    requiresConceptMapping: true
+    feedbackRequired: true
+  review:
+    targetItemsPerConcept: 2
+    preferRetrievalOverRecognition: true
+    rescheduleOnIncorrect: true

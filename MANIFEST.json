@@ -1,0 +1,893 @@
+{
+  "project": "IT Learning Platform",
+  "version": "0.2-phase0-4-docs",
+  "generated_date": "2026-09-24",
+  "file_count": 177,
+  "files": [
+    {
+      "path": ".agents/README.md",
+      "size": 705,
+      "sha256": "513fc8fa9fb6e23fd3bacef76d5ee9a2746a467fe7f950c5361c33e98f70546c"
+    },
+    {
+      "path": ".agents/agents/backend-engineer/agent.md",
+      "size": 589,
+      "sha256": "edd642db2bc5b3f835ad3299f8ade56306ee63ae6eef9bd11ed7e7269a29ed0a"
+    },
+    {
+      "path": ".agents/agents/data-ai-engineer/agent.md",
+      "size": 598,
+      "sha256": "78063a0326d79f0cbceb6d0ad393f5e3cfaf899234a8d741b9375500cd2b14be"
+    },
+    {
+      "path": ".agents/agents/devops-engineer/agent.md",
+      "size": 561,
+      "sha256": "522a7ba10223317d200a9ff3b4de0a15d7991180f5d0d8785e726b1c6fa50284"
+    },
+    {
+      "path": ".agents/agents/frontend-engineer/agent.md",
+      "size": 572,
+      "sha256": "1e04b43c5ca1934565baccc50e11901461b550630c389076c7e65196a2dc18f1"
+    },
+    {
+      "path": ".agents/agents/learning-scientist/agent.md",
+      "size": 623,
+      "sha256": "52d14bee33d80b680826afd385de87851bb6656137fe0220c508d214d98f8a5a"
+    },
+    {
+      "path": ".agents/agents/product-manager/agent.md",
+      "size": 607,
+      "sha256": "85098ec140ab5949c91138f383db3d5d1333748889da03d13b91b30ad4865d36"
+    },
+    {
+      "path": ".agents/agents/qa-engineer/agent.md",
+      "size": 513,
+      "sha256": "59ad10e68541704bd443d3fbda4134b75c8be8d175ce08e11f1f1f83efaf5e04"
+    },
+    {
+      "path": ".agents/agents/software-architect/agent.md",
+      "size": 584,
+      "sha256": "7e9c1a89c1a4811d586164d1ee119a444eea1445f5942611033631075048a43e"
+    },
+    {
+      "path": ".agents/agents/ux-designer/agent.md",
+      "size": 585,
+      "sha256": "c61c5a5206628a74fbfaaefd15dc982d986cef1a0979bf4a9647374df00e26ce"
+    },
+    {
+      "path": ".agents/rules/00-project-core.md",
+      "size": 730,
+      "sha256": "cacf7d5d29400874ea83fe251a06c62cd05fb67178dc3c23d8cf8c4f606f90d0"
+    },
+    {
+      "path": ".agents/rules/10-backend.md",
+      "size": 670,
+      "sha256": "3bf010989549189d2a8f2693c7b5a2606b230ef55ef4b15254639961f8472bee"
+    },
+    {
+      "path": ".agents/rules/20-frontend.md",
+      "size": 618,
+      "sha256": "c47b22148275076f4d8c3858ac9b10d9ff55d0b4cec8c6ad6da879b48589c10d"
+    },
+    {
+      "path": ".agents/rules/30-learning-content.md",
+      "size": 722,
+      "sha256": "810de85949cdc7d905cb9c16a897b5bac5e52dd0470c66def819a12750f26609"
+    },
+    {
+      "path": ".agents/rules/40-security.md",
+      "size": 559,
+      "sha256": "362e271a03f799ef37f525d52d766f1304fa9e409a645cc4a898fb441b3a7435"
+    },
+    {
+      "path": ".agents/rules/50-docs.md",
+      "size": 581,
+      "sha256": "b453ac959446cc9d5c3f55f351726f835bbe9f7159eb9cd05c160c3fab506e2b"
+    },
+    {
+      "path": ".agents/skills/author-learning-unit/SKILL.md",
+      "size": 1040,
+      "sha256": "517f62a131ee4e91edaaae929f1a0f211741f1d24bea10e1cef27611d850aa98"
+    },
+    {
+      "path": ".agents/skills/deliver-vertical-slice/SKILL.md",
+      "size": 883,
+      "sha256": "a5a8fd49ff6a53242f7c52cf352454a608482a4f56cff15eb47b698ec3999424"
+    },
+    {
+      "path": ".agents/skills/plan-feature/SKILL.md",
+      "size": 1011,
+      "sha256": "f2c1f6f7e1465bf0fe0881d6a64a206a86f665aa3356885cd70275c2fe55616e"
+    },
+    {
+      "path": ".agents/skills/release-check/SKILL.md",
+      "size": 560,
+      "sha256": "7b5b16ddda97081f4f601a4a576a54ce48adc6869503dcb87719d3b0ad90186b"
+    },
+    {
+      "path": ".agents/skills/review-feature/SKILL.md",
+      "size": 649,
+      "sha256": "d4bdd70797b2d1ef728a76c584e63004fcc0d81dbb1f24236e0346023dd2c585"
+    },
+    {
+      "path": "AGENTS.md",
+      "size": 2906,
+      "sha256": "ed0ea3033d8138100db866e9c57096b0c37b67bf84f566012f6a17d6e85dbe49"
+    },
+    {
+      "path": "COMPLETION_REPORT.md",
+      "size": 2839,
+      "sha256": "82136a999954adcf80e5ef3a7cbe751d7778791c8af292d1096473569b5070d0"
+    },
+    {
+      "path": "INSTALL_ANTIGRAVITY.md",
+      "size": 2058,
+      "sha256": "f88831e724748f21dd74f30dcf181c8be757b61763bd507392dcdc4189460c6d"
+    },
+    {
+      "path": "PROJECT_CONTEXT.md",
+      "size": 2234,
+      "sha256": "b98e1270b365a64a607f2ee0480399c156cff2e4df1326030cc590b29bfe3de8"
+    },
+    {
+      "path": "README.md",
+      "size": 2510,
+      "sha256": "268953608986d58667422ee2d254ae34c80204fa6cbf76ecf9afa07d8259e278"
+    },
+    {
+      "path": "TREE.txt",
+      "size": 6664,
+      "sha256": "98d661713333a05ee9b413865624b02aa92fe71a13fde9586c9c11be9b85d16a"
+    },
+    {
+      "path": "curriculum/backend-java/assessment-blueprint.yaml",
+      "size": 391,
+      "sha256": "123f579f713df54cc5afea20f2e64199041decc910b63cedb960cdc44fa06bef"
+    },
+    {
+      "path": "curriculum/backend-java/assessments/http-basics.yaml",
+      "size": 1297,
+      "sha256": "9c7eac05788f23182d0f01aba83a6d6f07aeda3401e8304d1243703d50234f43"
+    },
+    {
+      "path": "curriculum/backend-java/concepts.yaml",
+      "size": 6442,
+      "sha256": "569e023c9e6f312d468e265880cda34752d845196a7855442086d4be543a0c32"
+    },
+    {
+      "path": "curriculum/backend-java/learning-units/http-request-response.yaml",
+      "size": 1389,
+      "sha256": "6fb66a13de9d3a33ef628a7c0ebf6b79c7c00b5893d0b4c08b751f4707aebf19"
+    },
+    {
+      "path": "curriculum/backend-java/path.yaml",
+      "size": 450,
+      "sha256": "430d097668e0073cd15c11a4ca2f70180e42622ad30797894e7334d1a279fe31"
+    },
+    {
+      "path": "curriculum/backend-java/resources.yaml",
+      "size": 1655,
+      "sha256": "b223a66cd9db06bc63c5c04d83bd581ec82851360fa938106e33654aeeb6553a"
+    },
+    {
+      "path": "docs/00-governance/ai-agent-operating-model.md",
+      "size": 1356,
+      "sha256": "253b01d01f136a5c05284ed90affd0461bbab9bc7982eb3a85e8028399ca1488"
+    },
+    {
+      "path": "docs/00-governance/decision-log.md",
+      "size": 1197,
+      "sha256": "939ef9800f98ce388c8145e1d032b5f5bd724d05fb521f56a0e65e0e087b5b6e"
+    },
+    {
+      "path": "docs/00-governance/delivery-process.md",
+      "size": 1024,
+      "sha256": "377a697db1cfdf82ca4ab9f4b03976ec13a1f2366caa734192a58a53d461a061"
+    },
+    {
+      "path": "docs/00-governance/docs-index.md",
+      "size": 3814,
+      "sha256": "6ed3cf0307952024fd63004fa33c0cc09dd1aa2de2b0a1d2eaedfdc6c7a25f9c"
+    },
+    {
+      "path": "docs/00-governance/glossary.md",
+      "size": 1411,
+      "sha256": "1133e6930072c7eefcd1e534456443d38f6b29e74c3af995887aafe49ce37f58"
+    },
+    {
+      "path": "docs/00-governance/requirements-traceability.md",
+      "size": 1206,
+      "sha256": "f79278b0ce09e893d78dd294a5cb4b022ca24dbddfe183638889e480e1db6087"
+    },
+    {
+      "path": "docs/00-governance/roles-responsibilities.md",
+      "size": 1638,
+      "sha256": "dc85f6e5378c65c3587081f03b41fc641bb6689d6d6ff9ac523e3463fb227e22"
+    },
+    {
+      "path": "docs/00-governance/simplicity-guardrails.md",
+      "size": 1486,
+      "sha256": "10bdd7851b3f4583eabe1490b5a03ba03be9c0c6880a69893d6eb64019545388"
+    },
+    {
+      "path": "docs/00-governance/source-of-truth.md",
+      "size": 1673,
+      "sha256": "a9fe941e3073e18c475f7a5f7781b2682a01100afa6afda80ca27510c929bfab"
+    },
+    {
+      "path": "docs/01-product/assumptions.md",
+      "size": 891,
+      "sha256": "795894788a771850cb8d79fd58242bdf6a8683e2bad3e6617999eb9ffceed974"
+    },
+    {
+      "path": "docs/01-product/business-rules.md",
+      "size": 4094,
+      "sha256": "7a3c43c48d09d47a323a8b09e59cd428270cec953e7bc61e52adef3ffb1fb804"
+    },
+    {
+      "path": "docs/01-product/feature-catalog.md",
+      "size": 2368,
+      "sha256": "15d7832f0c0d88eadabd0880793cd971429a4c64e22fb2264e073a305317ccbc"
+    },
+    {
+      "path": "docs/01-product/feature-priority-matrix.md",
+      "size": 1115,
+      "sha256": "e88c822ee50ee0516ee057abc105182655c09a86123cee79a59849b51a5ff40f"
+    },
+    {
+      "path": "docs/01-product/features/epic-01-explore-goal.md",
+      "size": 995,
+      "sha256": "8a6cac78d23db6f5132b74812cd73fd22d26f946f80cdf73507c92a01ab8358c"
+    },
+    {
+      "path": "docs/01-product/features/epic-02-roadmap.md",
+      "size": 920,
+      "sha256": "99225caa490145d57a9b351ee6599f5c1bd77d0e630484a9dd4e92c5cde70ced"
+    },
+    {
+      "path": "docs/01-product/features/epic-03-diagnostic.md",
+      "size": 906,
+      "sha256": "bb0bdbc88ad8f0c98306c59de688c961ce1a769f3aca7e59eb3c919fa9d539df"
+    },
+    {
+      "path": "docs/01-product/features/epic-04-learning-workspace.md",
+      "size": 966,
+      "sha256": "017cabe7685a59e8e97bfc06dc642d513f54dccb8cb01aeba11ab20d2f47189a"
+    },
+    {
+      "path": "docs/01-product/features/epic-05-assessment.md",
+      "size": 918,
+      "sha256": "4f34a9a738da23d80a8a79582cf60154fe357f78f9263b00de88f0487865f3e9"
+    },
+    {
+      "path": "docs/01-product/features/epic-06-mastery-review.md",
+      "size": 915,
+      "sha256": "e52a2c492d4f35f05a42df69ce08f89051757df893c4b9f0439ee005c41b4499"
+    },
+    {
+      "path": "docs/01-product/features/epic-07-today-planner.md",
+      "size": 943,
+      "sha256": "0c49fd919844235b70550988a3b2aba32126b7f2f400282cd402c56fdd188983"
+    },
+    {
+      "path": "docs/01-product/features/epic-08-progress.md",
+      "size": 899,
+      "sha256": "edc3bf59b644ce804843fed258e965e897793787fdd67f5c355f8ce2d0418e43"
+    },
+    {
+      "path": "docs/01-product/functional-requirements.md",
+      "size": 1717,
+      "sha256": "ddaeced09d330e4b07298135e8183a1fdf85b373d61739d670bb4bd40b7c47c8"
+    },
+    {
+      "path": "docs/01-product/mvp-scope.md",
+      "size": 1053,
+      "sha256": "18dcffbe0465579654cf5f1a65fbb93b78156572cdebae469461e8872e6793f3"
+    },
+    {
+      "path": "docs/01-product/non-functional-requirements.md",
+      "size": 1097,
+      "sha256": "3f3aea543d59f203d363710974cc5e8e1d7c72ba38a9e3a431ca841e0311bacc"
+    },
+    {
+      "path": "docs/01-product/open-questions.md",
+      "size": 821,
+      "sha256": "8cfc0261f02220e675116544c1e2f9dfd90698c3ee7f91a54d12c550f1b106db"
+    },
+    {
+      "path": "docs/01-product/out-of-scope.md",
+      "size": 867,
+      "sha256": "7471afee0a91d3f677dbb08408e9cff3b8e2bbf4d7e390bed7cc49cec7bc49de"
+    },
+    {
+      "path": "docs/01-product/personas.md",
+      "size": 967,
+      "sha256": "68351c44af691ecd1f0f9a38e72a6e1951851054e93e7248ae5570d5a1696e7e"
+    },
+    {
+      "path": "docs/01-product/prd.md",
+      "size": 7102,
+      "sha256": "01dd2b48856dee75fc90f05346236553a6a8386f4d716b9718628352a5b3fcd4"
+    },
+    {
+      "path": "docs/01-product/problem-statements.md",
+      "size": 1153,
+      "sha256": "ba940ec82ce8ac7f3ea30e5982648e4ec916d3e1b9a57bf8e3b6f226f17f9a92"
+    },
+    {
+      "path": "docs/01-product/product-principles.md",
+      "size": 926,
+      "sha256": "b6ced8018ed9c1a716ce933fe995a85ef350bbe271c3a6158d8b715a0516d6c2"
+    },
+    {
+      "path": "docs/01-product/product-vision.md",
+      "size": 898,
+      "sha256": "0e82a8d22e8d7ad9b1d3c571bb84ece0b3ed7840d13efcfbfd929dc8e1722a3c"
+    },
+    {
+      "path": "docs/01-product/risks.md",
+      "size": 941,
+      "sha256": "99c5f910f778c0b802572f409c560b5ab1444114c7cb3ea8d1746ad02687ac74"
+    },
+    {
+      "path": "docs/01-product/roles-and-permissions.md",
+      "size": 1184,
+      "sha256": "c63dab6a3dc44fd198390b985c32a4785436cf0d0cc7d7c7bbad3acf9a45a670"
+    },
+    {
+      "path": "docs/01-product/success-metrics.md",
+      "size": 848,
+      "sha256": "c3b051b8fd4da3dcb451d3f9ad34fc1d32ffa0cb65effb2ba7dd1f19bd33c480"
+    },
+    {
+      "path": "docs/01-product/user-journeys.md",
+      "size": 1096,
+      "sha256": "c7c01c2a84f87c68bdccaa3f49ce34f937583fadcdc4c5986341ecb89f089b48"
+    },
+    {
+      "path": "docs/02-learning/assessment-strategy.md",
+      "size": 877,
+      "sha256": "9713707d22cc01548666b04e7fdb7843291391cae3ee4b44fa04be47c210dc9b"
+    },
+    {
+      "path": "docs/02-learning/concept-taxonomy.md",
+      "size": 1190,
+      "sha256": "b4d64f654f037356813a607a0162f79e63d14e7189a89e4ed0f5ca91febb5968"
+    },
+    {
+      "path": "docs/02-learning/content-lifecycle.md",
+      "size": 1076,
+      "sha256": "ff363f9f82a1a8a3255c74a8b20b1460ac0b791b0144e52c9be8682480fd4d83"
+    },
+    {
+      "path": "docs/02-learning/content-quality-rubric.md",
+      "size": 1063,
+      "sha256": "89a42e92496896a584bfd4feae4c06f213d5fbc83e66bdd65e8e986d3e791d49"
+    },
+    {
+      "path": "docs/02-learning/curriculum-framework.md",
+      "size": 1014,
+      "sha256": "7f6f0ccc96fb20a959e79f19effa3d5b7d8eebda7b4164e0e1ab2cdbd1cf9070"
+    },
+    {
+      "path": "docs/02-learning/diagnostic-strategy.md",
+      "size": 995,
+      "sha256": "69999409ad337e386e42bf3c04dbb6d0a0dd95dd7240f12008a4b116957b8cbc"
+    },
+    {
+      "path": "docs/02-learning/difficulty-model.md",
+      "size": 1059,
+      "sha256": "d9a7fffa898c013a4ea88c63ab8969433ee221c6cbd80d96cf3f27b7eb1c98f0"
+    },
+    {
+      "path": "docs/02-learning/evidence-base.md",
+      "size": 2628,
+      "sha256": "6c8df2389be5747681cd939d646ef08237e2852fa4ce6edb18f6d85fbeac7862"
+    },
+    {
+      "path": "docs/02-learning/evidence-model.md",
+      "size": 1752,
+      "sha256": "e624cdd0e5a7dec60a9291a6484487c317234f317d8675ee6f770506215e69e9"
+    },
+    {
+      "path": "docs/02-learning/knowledge-graph.md",
+      "size": 860,
+      "sha256": "dc749281f134b0d97210cc411ca804b4072ffcb137818b3bcfac405e76ab5b96"
+    },
+    {
+      "path": "docs/02-learning/learning-science-principles.md",
+      "size": 1500,
+      "sha256": "49ff1744ea4bbe162998619e58cde01a89b67205798adfe99c66c0c2a9d8f4ad"
+    },
+    {
+      "path": "docs/02-learning/learning-unit-authoring-guide.md",
+      "size": 1485,
+      "sha256": "75ffe8537f481131b18b65aa194c8ca86fe7093caf3923054476bbb9e22abd21"
+    },
+    {
+      "path": "docs/02-learning/learning-unit-spec.md",
+      "size": 1229,
+      "sha256": "a7daed6447a8eed39b8d48a999b8efa7fc91886ce71fb1eb80f8bdc981b68887"
+    },
+    {
+      "path": "docs/02-learning/mastery-model.md",
+      "size": 1437,
+      "sha256": "3eeea6aba6c6967f3add95f58a031d2c67d74511f67e202937fa0a5fa889aaf2"
+    },
+    {
+      "path": "docs/02-learning/remediation-strategy.md",
+      "size": 1189,
+      "sha256": "b9f3463144875cd6b9fd8f86e2ea9f4df5242631f23db5be445d9e9fe0716ccc"
+    },
+    {
+      "path": "docs/02-learning/resource-curation.md",
+      "size": 862,
+      "sha256": "beefaa189dafb3fc12287ab11cb5463a5f82179c298a27a920b3e84a6943bc3d"
+    },
+    {
+      "path": "docs/02-learning/review-strategy.md",
+      "size": 804,
+      "sha256": "4b892ef654f20a9d1e68539c6e17d4e6026708243f2c9645c17eb0f94b2e225b"
+    },
+    {
+      "path": "docs/03-ux/accessibility.md",
+      "size": 494,
+      "sha256": "dcea433aa4473d7abd63fcf9297013e7bb2db318cc412e8ab7483237b2b8c5c9"
+    },
+    {
+      "path": "docs/03-ux/design-system.md",
+      "size": 1542,
+      "sha256": "0d8e840d7a0cc1dd795fae861e0318b54656e84d495178c27975c0ed1255b2dd"
+    },
+    {
+      "path": "docs/03-ux/information-architecture.md",
+      "size": 1094,
+      "sha256": "e2e4ae28940c3425c7a2e8a47c209f02115e6ae219bf99496e799e1ed7cb8b8b"
+    },
+    {
+      "path": "docs/03-ux/learning-workspace.md",
+      "size": 772,
+      "sha256": "5e1063bb23dc84ba3d75c1b76ddfd577e9d3e116a0cc2cb75a4bed0039fb5c57"
+    },
+    {
+      "path": "docs/03-ux/navigation-tabs.md",
+      "size": 761,
+      "sha256": "b39d08b33dce35740e022db02d8281e01a2787cf4a3948dca07723efbf30abad"
+    },
+    {
+      "path": "docs/03-ux/onboarding-flow.md",
+      "size": 814,
+      "sha256": "0c31b0803b78262e363ab33d7cd4a7bb06dd61744ab1ad95017048c47978535e"
+    },
+    {
+      "path": "docs/03-ux/research/findings-template.md",
+      "size": 551,
+      "sha256": "19301f000622c8618a41dae0e40f4bc1f573c599e69ee77fec115708c35f4006"
+    },
+    {
+      "path": "docs/03-ux/research/participant-profile.md",
+      "size": 516,
+      "sha256": "955437955e03ac5232ba4040a831e48f55a79cdbc4c6d5aac71f56427888e9cf"
+    },
+    {
+      "path": "docs/03-ux/research/usability-findings.md",
+      "size": 360,
+      "sha256": "8bc086ff38f11526b863037edf815e5242a0d357f1e30dafe2b480d396177325"
+    },
+    {
+      "path": "docs/03-ux/research/usability-test-plan.md",
+      "size": 1246,
+      "sha256": "8303db80333cfe958908066eff9d6c4633bd51249695f7d01dcfa665e462ae4a"
+    },
+    {
+      "path": "docs/03-ux/research/usability-test-script.md",
+      "size": 932,
+      "sha256": "d413319f6654989ad8e1a130ff3d156d0867d7614cf368e6046f44a20fe25e63"
+    },
+    {
+      "path": "docs/03-ux/returning-user-flow.md",
+      "size": 657,
+      "sha256": "bc22cc5dc031f8713f705a5607fe29ec0b60dc51eed6daa58e23bdffa41b5994"
+    },
+    {
+      "path": "docs/03-ux/screens/auth.md",
+      "size": 1520,
+      "sha256": "eb3c91ddea8e09d69d4800bcfac144986026bbab25368eca752c0f256677d395"
+    },
+    {
+      "path": "docs/03-ux/screens/diagnostic.md",
+      "size": 1593,
+      "sha256": "f850de69ea00b0087936bf6edf61370fb01d55cd396b3c04b9166755b8abb864"
+    },
+    {
+      "path": "docs/03-ux/screens/explore.md",
+      "size": 1546,
+      "sha256": "a4968d66c5b6996ed7cb981f198e2b9bef04904f95b8baf83073237d125a0f26"
+    },
+    {
+      "path": "docs/03-ux/screens/learn.md",
+      "size": 1577,
+      "sha256": "f0c146e6579d8fbdd3c9dbfc90d7b8cdf3a5dc940d2f9ce64e8d1c842e1966f7"
+    },
+    {
+      "path": "docs/03-ux/screens/onboarding.md",
+      "size": 1570,
+      "sha256": "954cbe3890365e70f7a62583f7f3ab4cb4c9ec90bd9c63a2e87e5188e74d0f79"
+    },
+    {
+      "path": "docs/03-ux/screens/progress.md",
+      "size": 1448,
+      "sha256": "8426088677ec2669907c43447249342f693d5a1e4315735dbd73db86d74252b9"
+    },
+    {
+      "path": "docs/03-ux/screens/review.md",
+      "size": 1514,
+      "sha256": "ddfe9ef3c78f9f80c8c05428e8dc92a2bc271e818ebfdff2e8c1d03f9357397e"
+    },
+    {
+      "path": "docs/03-ux/screens/roadmap.md",
+      "size": 1485,
+      "sha256": "393603f14a47955b7b287d1494eee1bbb4c1de6aab01350a8fd1b6030eebb4d0"
+    },
+    {
+      "path": "docs/03-ux/screens/settings.md",
+      "size": 1585,
+      "sha256": "6425062ad60cfb02ce0339b442d4c478edb04d6233c0d6a124aeb8c6b796538a"
+    },
+    {
+      "path": "docs/03-ux/screens/today.md",
+      "size": 1524,
+      "sha256": "25158aa96a333f5608a4b4156e4fadb3c8c4364ec42f800109741ba53dd85096"
+    },
+    {
+      "path": "docs/03-ux/states-and-microcopy.md",
+      "size": 760,
+      "sha256": "3b767ff489624c4e8f6cb2f8d4cf7efd36d26c2284ad3638da5f1cafaa6ef194"
+    },
+    {
+      "path": "docs/03-ux/today-flow.md",
+      "size": 614,
+      "sha256": "783512cde665b5e6b630089782e83aa5ac1ed39ab01ad1707fe405be26b1a116"
+    },
+    {
+      "path": "docs/03-ux/ux-decision-log.md",
+      "size": 616,
+      "sha256": "6763095446421f2963fc8ef6e12c41dfe4c858176c4f16066a17c0ebc2e5a749"
+    },
+    {
+      "path": "docs/03-ux/ux-principles.md",
+      "size": 699,
+      "sha256": "53571805baa7c2f6e7d5d314f881a63b1c0cf5954099f4f220856862976d754c"
+    },
+    {
+      "path": "docs/03-ux/wireframes.md",
+      "size": 3474,
+      "sha256": "9a52e3929e05a47f9afcd7ca4424612370b0b3670e9f3b2d632ca5af438b9aa8"
+    },
+    {
+      "path": "docs/04-architecture/adr/0001-modular-monolith.md",
+      "size": 569,
+      "sha256": "0c68f50bcbc43fabbba9fdb0147a7870b555c88e4bc2bafdd6a3f747d1480e98"
+    },
+    {
+      "path": "docs/04-architecture/adr/0002-mysql.md",
+      "size": 449,
+      "sha256": "bfedf379cab00b5f748475bcf535ba60c31d310c3ca47f3f77c8552da594fc3d"
+    },
+    {
+      "path": "docs/04-architecture/adr/0003-rule-based-adaptive-v1.md",
+      "size": 493,
+      "sha256": "b3dd7b6200a1ea4e120371e53df2d49d5ef2177934dc176d99dbce0c4b0b5661"
+    },
+    {
+      "path": "docs/04-architecture/adr/0004-curriculum-as-versioned-seed-data.md",
+      "size": 609,
+      "sha256": "231caabee0ec5a409689a52c6cd1e3080b3517ba97bfeeab5e180b1a1ed2fb15"
+    },
+    {
+      "path": "docs/04-architecture/adr/0005-no-arbitrary-code-runner-in-mvp.md",
+      "size": 640,
+      "sha256": "a391826a263254dee83b7e320c0e957b276e09877a56e602076213a94d8e7da5"
+    },
+    {
+      "path": "docs/04-architecture/api-catalog.md",
+      "size": 3447,
+      "sha256": "2fc64d010032ba776763a9d5d5cc6d0a87e58497eba28ec1af9c842521c57d38"
+    },
+    {
+      "path": "docs/04-architecture/api-conventions.md",
+      "size": 1271,
+      "sha256": "42c7b8ef449ec529b5818553514b1e053b5b86c08e63e5370745e4b9ae4bf9ab"
+    },
+    {
+      "path": "docs/04-architecture/api-error-model.md",
+      "size": 818,
+      "sha256": "c450ca3a48f8fce6559cb78bf91983d85db2713d102a3de171dfe0667c718640"
+    },
+    {
+      "path": "docs/04-architecture/auth-design.md",
+      "size": 1891,
+      "sha256": "cf2a5cfab54ed2e6d1ffe0aec1724afcaa96f195fab8c625e018aee9039ac9ab"
+    },
+    {
+      "path": "docs/04-architecture/authorization-matrix.md",
+      "size": 824,
+      "sha256": "ec94f7496d8daa99eebde3c1930afe6cdd0952c34f5b19241fd998ec917b97ec"
+    },
+    {
+      "path": "docs/04-architecture/data-model.md",
+      "size": 1075,
+      "sha256": "2c01277d680189622165a97fd8d0221ba3af56d0a6faebf8e075557f02282405"
+    },
+    {
+      "path": "docs/04-architecture/database-schema.md",
+      "size": 6763,
+      "sha256": "32242df043df0520975aad1cf846f99b63b03c53594542a0170528e9ff444574"
+    },
+    {
+      "path": "docs/04-architecture/frontend-architecture.md",
+      "size": 1250,
+      "sha256": "888b74ffc1d1a3cc06ab013f5aff86cc5cd128f73909e85ca77878a9b23c48c2"
+    },
+    {
+      "path": "docs/04-architecture/local-development.md",
+      "size": 1175,
+      "sha256": "a713fb2116358aea22ae9fa5795c19827e43aced25b664caffe7d83c90c1c885"
+    },
+    {
+      "path": "docs/04-architecture/module-architecture.md",
+      "size": 1016,
+      "sha256": "773113f65cc5f80316be7124c37b6ffac693de930a4e2cfcb5f360617cb6a58d"
+    },
+    {
+      "path": "docs/04-architecture/observability.md",
+      "size": 568,
+      "sha256": "d4dfb215d8cebe932c8a2d4f7d11c70c83d4e82d422b7fc47d234ac32736e6d2"
+    },
+    {
+      "path": "docs/04-architecture/package-structure.md",
+      "size": 1203,
+      "sha256": "a25a0cb3e157ba78a4d1ee70e40c4f15edaef6bd360f5e1596f6c714461bdadf"
+    },
+    {
+      "path": "docs/04-architecture/phase4-bootstrap-spec.md",
+      "size": 1181,
+      "sha256": "538a5d0f0a923ee31bb6877c92e4691d73ca9886591ecac8b65e4a617208ddc2"
+    },
+    {
+      "path": "docs/04-architecture/repo-structure.md",
+      "size": 776,
+      "sha256": "7877a12e751d155c3be138d14e0aa6d3dc445f84e706b6d84cdf13a7fc8acf2f"
+    },
+    {
+      "path": "docs/04-architecture/security.md",
+      "size": 1601,
+      "sha256": "a2fbf5e20d026a905891711907760ba2812f929b72a2f7225ca3064f59c26c6d"
+    },
+    {
+      "path": "docs/04-architecture/sequence-flows.md",
+      "size": 1719,
+      "sha256": "e3f30f2e51cfb9057debac0a2a7cd5b375c8887e95ad79b8de06e7dc9e6090ba"
+    },
+    {
+      "path": "docs/04-architecture/system-context.md",
+      "size": 1208,
+      "sha256": "d63ce52296e30c310ad7f240f9ed4cbaac1212cf26e34e2d7e797323f0a8ef7e"
+    },
+    {
+      "path": "docs/05-data-ai/adaptive-planner.md",
+      "size": 2001,
+      "sha256": "95c09dcc7993ceee9a91aad7d1f3a8eede475fc0663c21a9fb3b96bae7d69fc4"
+    },
+    {
+      "path": "docs/05-data-ai/ai-boundaries.md",
+      "size": 819,
+      "sha256": "81471722b6b153bd0e5942fed4356803f91779ce48fdb5ded24590c44b5ad3bd"
+    },
+    {
+      "path": "docs/05-data-ai/ai-guardrails.md",
+      "size": 1092,
+      "sha256": "acdf62a2a4f433649e97fc2852740961a87f66350a0b259adb92df1ff4b38f19"
+    },
+    {
+      "path": "docs/05-data-ai/analytics-events.md",
+      "size": 772,
+      "sha256": "80e7a4f8158c63cde89b3acd5d7f1b1f86f9315bce1cbc6f5f989f23ca66cac4"
+    },
+    {
+      "path": "docs/05-data-ai/mastery-calculation.md",
+      "size": 1885,
+      "sha256": "95b082806b9f47c680a0a75dbee4ca118b3862d4591c4adb644b7abee635e3fe"
+    },
+    {
+      "path": "docs/05-data-ai/prompt-guidelines.md",
+      "size": 1007,
+      "sha256": "fdedef0954e13063857142d79f2da565e87e88309acd4f1a5e7edef339dbcd29"
+    },
+    {
+      "path": "docs/06-quality/acceptance-test-catalog.md",
+      "size": 1261,
+      "sha256": "fc594d48057c348ef421913860163b2f48816bc1cddd5c2c59a2fc7139396866"
+    },
+    {
+      "path": "docs/06-quality/content-validation.md",
+      "size": 663,
+      "sha256": "221576b69341761a024c096a316cb52de0c7f7de61b3014b865975bb13d3217c"
+    },
+    {
+      "path": "docs/06-quality/e2e-test-strategy.md",
+      "size": 875,
+      "sha256": "24ea0ed9f1cd76e0943aeb79a7d1ce0289e465c87bed96c6b913fc366e31dcb9"
+    },
+    {
+      "path": "docs/06-quality/integration-test-strategy.md",
+      "size": 830,
+      "sha256": "387200c33fa59c0621e8b01cafab40f2a9ed51857793b6665376bfbcc6991113"
+    },
+    {
+      "path": "docs/06-quality/learning-content-qa.md",
+      "size": 621,
+      "sha256": "f48c562a4b741676de7e7ac6b84adf2a97c7895c43552fa2b5f5aad1c3e3e2ad"
+    },
+    {
+      "path": "docs/06-quality/learning-flow-tests.md",
+      "size": 1311,
+      "sha256": "7d9a3db2f058b0e84f9757587e891e0b549493a3236de678568fead9caf0a482"
+    },
+    {
+      "path": "docs/06-quality/release-gates.md",
+      "size": 828,
+      "sha256": "153891cff96c8df8e3fed20e678330b56c8a22794a6db1fdfc17d76b2db5775a"
+    },
+    {
+      "path": "docs/06-quality/security-test-checklist.md",
+      "size": 548,
+      "sha256": "09d6de080f72f5e8f0a1317e09fb87da07314fa0ea5a6a57fd0bac2388c68ac8"
+    },
+    {
+      "path": "docs/06-quality/test-pyramid.md",
+      "size": 1049,
+      "sha256": "90cbe56686b68e31ae77c7532b7d9e2cde737aea440b18f3aabad19e3bdac6ba"
+    },
+    {
+      "path": "docs/06-quality/test-strategy.md",
+      "size": 792,
+      "sha256": "686fcc1f8270ab83d345745d1df79c6f585d4f1b9dd41ea24dfbb35ee9cbe520"
+    },
+    {
+      "path": "docs/07-devops/bootstrap-local.md",
+      "size": 759,
+      "sha256": "a88f40847e5c09d0e3233bd94e75c7cf16ed9e253aa334cb75d095a06ca53c9a"
+    },
+    {
+      "path": "docs/07-devops/ci-cd.md",
+      "size": 504,
+      "sha256": "7d9f875f36eaf78fc4959394fd812b1a46b0e73e31baa6c66c3671d7ffd45f38"
+    },
+    {
+      "path": "docs/07-devops/docker-strategy.md",
+      "size": 647,
+      "sha256": "cc8a3197f58a340706ceef0b989df996f77e116c33f6ba2e08f3befc5e040086"
+    },
+    {
+      "path": "docs/07-devops/environments.md",
+      "size": 525,
+      "sha256": "8eca1b1b4bb01ef2a7f4e5f56be6185a1845e45b74645bffdfbf7dbf329691d8"
+    },
+    {
+      "path": "docs/07-devops/release-runbook.md",
+      "size": 620,
+      "sha256": "996218d5aea3554b1acefa0f905735bbb6763d5058da02b8f441bc77a93fbbdb"
+    },
+    {
+      "path": "docs/08-delivery/checklists/phase-0-exit.md",
+      "size": 461,
+      "sha256": "305e7c6bbfd53e2cd257c8c4f9a9f979f024d20ae6fcb06f68b8728b193ee334"
+    },
+    {
+      "path": "docs/08-delivery/checklists/phase-1-exit.md",
+      "size": 554,
+      "sha256": "569944fe7c939e38b1b32f24968989003986c3a9f45767b3bce57a9f94d00189"
+    },
+    {
+      "path": "docs/08-delivery/checklists/phase-2-exit.md",
+      "size": 655,
+      "sha256": "8e6de1ab6ce0f6313dbecad6477386054e27826dfa82f8b3f85eef6d4fcf9dd5"
+    },
+    {
+      "path": "docs/08-delivery/checklists/phase-3-exit.md",
+      "size": 553,
+      "sha256": "f93fa4757c7c676266116a0d3e791e2b873aa1844891b15a00fa18f657756e23"
+    },
+    {
+      "path": "docs/08-delivery/checklists/phase-4-exit.md",
+      "size": 614,
+      "sha256": "64bec7454aa0a98e5bc864b7e833694f0e7d2ad4c1fa5292bce1e499274d2d6e"
+    },
+    {
+      "path": "docs/08-delivery/definition-of-done.md",
+      "size": 938,
+      "sha256": "fd64f26127bcbe7fa6ff4f4210851f4620071b44e88acdfe2f59d17b65c7ebc2"
+    },
+    {
+      "path": "docs/08-delivery/definition-of-ready.md",
+      "size": 735,
+      "sha256": "84d29019e9c49ab0045bf86f0aec710e6eb365dbe4f851e2a0b6445f0425b74e"
+    },
+    {
+      "path": "docs/08-delivery/git-workflow.md",
+      "size": 585,
+      "sha256": "136efc0044fc307d00ea3c3b7214439dac1b8a70abbb7699994ebba564906adb"
+    },
+    {
+      "path": "docs/08-delivery/implementation-roadmap.md",
+      "size": 1653,
+      "sha256": "1775a4b2ae89b6dd694702eb8daeb7f16e2eb12456e8fea83728ff1068f4d9ac"
+    },
+    {
+      "path": "docs/08-delivery/mvp-backlog.md",
+      "size": 1683,
+      "sha256": "c2bf43232161921b7c18da19ea5ed917d7aadf2d84e98ad20e87302600aa85f5"
+    },
+    {
+      "path": "docs/08-delivery/phase-0-4-readiness.md",
+      "size": 1870,
+      "sha256": "afb15838197ace8754e8215b36ed5ba8d0fec124c0d68336e179f40937f0e566"
+    },
+    {
+      "path": "docs/08-delivery/phase-plan.md",
+      "size": 1981,
+      "sha256": "ebac588b01552ddb695939e3edc427529da167c6085ad4d24a78923b132854f6"
+    },
+    {
+      "path": "docs/08-delivery/phase4-bootstrap-checklist.md",
+      "size": 1153,
+      "sha256": "6e5858f90578445791d5936276871dcfc5cb1bfff2361ca0c29c0817e2d621e0"
+    },
+    {
+      "path": "docs/08-delivery/sprint-0-kickoff.md",
+      "size": 1580,
+      "sha256": "bc1abfb6473ce7be675642a9ae08932d124dd00c7b6a5a1f340f58c51c1c6e85"
+    },
+    {
+      "path": "docs/08-delivery/team-work-plan.md",
+      "size": 1457,
+      "sha256": "3937ecf9d1341a12b5e78e173a1827257ac889fc01f6b61e7ca249db94568da2"
+    },
+    {
+      "path": "docs/09-content-seed/backend-java-foundation-outline.md",
+      "size": 1376,
+      "sha256": "fc84491ae7d7288bfd9e014de7c14b5f8292efedb2bad07ff983b8550fc08ab3"
+    },
+    {
+      "path": "docs/09-content-seed/example-learning-unit-http.md",
+      "size": 1630,
+      "sha256": "367c73acd2e4007edc160554c8e9544dd033de8b156f94bde41ef96a2fc1c34e"
+    },
+    {
+      "path": "docs/99-templates/adr-template.md",
+      "size": 165,
+      "sha256": "8acc53e7ee5c5d2df45d33aa9f703b87ba2bfd0a3dab914e8f890c539340ec8b"
+    },
+    {
+      "path": "docs/99-templates/feature-spec-template.md",
+      "size": 290,
+      "sha256": "debef7c65dc61a5e0b736d4316381ee944ea633ec851ead49945e3a527e95e2a"
+    },
+    {
+      "path": "docs/99-templates/learning-unit-template.md",
+      "size": 361,
+      "sha256": "8ebd4507b433a37a41fe264383f045f3c8b739c12b8a30d7922b7b06e2f72607"
+    },
+    {
+      "path": "docs/99-templates/sprint-plan-template.md",
+      "size": 176,
+      "sha256": "3e619d0b22138b6e1fa3d31470460b93ae5d3aa700cfc05a695c94f22e8571d7"
+    },
+    {
+      "path": "docs/99-templates/test-plan-template.md",
+      "size": 198,
+      "sha256": "c0f99c57972efd1f6665c740b61d1a9e252d5de7e4836a030d1abded13119367"
+    }
+  ]
+}

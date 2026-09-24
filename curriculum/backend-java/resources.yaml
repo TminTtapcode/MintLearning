@@ -1,0 +1,47 @@
+resources:
+  - id: res-mdn-http-overview
+    conceptId: web.http
+    title: Overview of HTTP
+    provider: MDN Web Docs
+    type: ARTICLE
+    url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview
+    focus: "Client/server flow, HTTP messages, request/response mental model."
+    skipForNow: "Advanced proxy/cache details."
+    authority: OFFICIAL_OR_PRIMARY
+    lastVerifiedAt: 2026-09-24
+  - id: res-spring-rest-guide
+    conceptId: spring.controller
+    title: Building a RESTful Web Service
+    provider: Spring
+    type: GUIDE
+    url: https://spring.io/guides/gs/rest-service/
+    focus: "Create a simple GET endpoint and understand controller → response flow."
+    authority: OFFICIAL_OR_PRIMARY
+    lastVerifiedAt: 2026-09-24
+  - id: res-java-learn
+    conceptId: java.classes-objects
+    title: Learn Java
+    provider: dev.java
+    type: GUIDE
+    url: https://dev.java/learn/
+    focus: "Classes, objects and core language concepts relevant to the unit."
+    authority: OFFICIAL_OR_PRIMARY
+    lastVerifiedAt: 2026-09-24
+  - id: res-mysql-tutorial
+    conceptId: db.sql-crud
+    title: MySQL Reference Manual
+    provider: MySQL
+    type: REFERENCE
+    url: https://dev.mysql.com/doc/
+    focus: "Use as reference for SQL/MySQL behavior; learning unit should point to exact section."
+    authority: OFFICIAL_OR_PRIMARY
+    lastVerifiedAt: 2026-09-24
+  - id: res-git-book
+    conceptId: git.basics
+    title: Pro Git
+    provider: Git SCM
+    type: BOOK
+    url: https://git-scm.com/book/en/v2
+    focus: "Getting Started and Git Basics sections only for MVP."
+    authority: OFFICIAL_OR_PRIMARY
+    lastVerifiedAt: 2026-09-24
